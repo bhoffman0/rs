@@ -22,8 +22,8 @@
         <label for="assignmentsearch">Filter by Assignment</label>
         <input type="text" id="assignmentsearch" onkeyup="searchAssignment()" placeholder="Name of assignment..">
     </div>
-    <button id="export" data-export="export">Download Gradebook</button>
-    <div id="grades" class="col-md-12" style="width:80em; overflow-x:auto; white-space:nowrap;">
+  
+    <div id="grades" class="col-md-10" style="width:80em; overflow-x:auto; white-space:nowrap;">
 
         <table id="gradebook" class="sortable">
 
@@ -112,7 +112,11 @@
         </table>
     </div>
 </div>
-<p>Note: You can have the gradebook show either points or the percentage by changing the option in the course settings panel</p>
+<div class="col-md-2">
+    <button id="export" data-export="export">Download Gradebook</button>
+    Note: You can have the gradebook show either points or the percentage by changing the option in the course settings panel.
+</div>
+
 <div class="row"></div>
 <div>
     <h2>Timed Exam Analysis</h2>
