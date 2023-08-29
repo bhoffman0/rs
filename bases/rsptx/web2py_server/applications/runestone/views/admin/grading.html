@@ -60,6 +60,9 @@
           </fieldset>
           <input id="autogradesubmit" type="submit" class="btn btn-primary" value="Autograde and Display Totals" />
           <!--<button id="autogradebutton"  class="list-group-item" onclick="function(event){event.preventDefault(); autoGrade(event);}">Autograde</button>-->
+
+          <button class="btn btn-sm btn-primary" onclick="window.location.href='{{=URL('grades')}}'">Gradebook</button>
+          
         </form>
         <strong>Warning</strong> Autograde does not support multiple selections yet.
       </div>
